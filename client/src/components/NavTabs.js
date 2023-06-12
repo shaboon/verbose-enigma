@@ -5,6 +5,7 @@ import React from "react";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header>
+      {console.log(currentPage)}
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a

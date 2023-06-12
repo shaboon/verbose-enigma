@@ -29,7 +29,8 @@ header h1 {
 header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    justify-content: flex-end;
+    float: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -46,6 +47,10 @@ header nav li {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+.nav {
+    justify-content: flex-end;
 }
 
 .hero {

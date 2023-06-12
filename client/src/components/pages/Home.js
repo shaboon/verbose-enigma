@@ -10,15 +10,15 @@ export default function Home() {
   return (
     <div>
       <section
-        class="hero"
+        className="hero"
         src="../images/digital-marketing-meeting.jpg"
         alt="Team of SEO specialists"
       ></section>
-      <main class="content">
-        <article id="search-engine-optimization" class="child">
+      <main className="content">
+        <article id="search-engine-optimization" className="child">
           <img
             src={SEO}
-            class="float-left"
+            className="float-left"
             alt="Search engine optimization jpg"
           />
           <h2>Search Engine Optimization</h2>
@@ -29,10 +29,10 @@ export default function Home() {
             your visibility and find the right customers for your business.
           </p>
         </article>
-        <article id="online-reputation-management" class="child">
+        <article id="online-reputation-management" className="child">
           <img
             src={ORM}
-            class="float-right"
+            className="float-right"
             alt="rising reputation chart on laptop jpg"
           />
           <h2>Online Reputation Management</h2>
@@ -44,10 +44,10 @@ export default function Home() {
             search for your business.
           </p>
         </article>
-        <article id="social-media-marketing" class="child">
+        <article id="social-media-marketing" className="child">
           <img
             src={SMM}
-            class="float-left"
+            className="float-left"
             alt="social marketing collaboration jpg"
           />
           <h2>Social Media Marketing</h2>
@@ -59,7 +59,7 @@ export default function Home() {
           </p>
         </article>
       </main>
-      <aside class="benefits">
+      <aside className="benefits">
         <article>
           <h3>Lead Generation</h3>
           <img src={LG} alt="lead generation logo" />
