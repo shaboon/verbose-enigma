@@ -1,4 +1,10 @@
 import React from "react";
+import SEO from "../../images/search-engine-optimization.jpg";
+import ORM from "../../images/online-reputation-management.jpg";
+import SMM from "../../images/social-media-marketing.jpg";
+import LG from "../../images/lead-generation.png";
+import BR from "../../images/brand-awareness.png";
+import CM from "../../images/cost-management.png";
 
 export default function Home() {
   return (
@@ -10,11 +16,11 @@ export default function Home() {
       ></section>
       <main class="content">
         <article id="search-engine-optimization" class="child">
-          {/* <img
-            src="./assets/images/search-engine-optimization.jpg"
+          <img
+            src={SEO}
             class="float-left"
             alt="Search engine optimization jpg"
-          /> */}
+          />
           <h2>Search Engine Optimization</h2>
           <p>
             The dominance of mobile internet use means that users are searching
@@ -24,11 +30,11 @@ export default function Home() {
           </p>
         </article>
         <article id="online-reputation-management" class="child">
-          {/* <img
-            src="./assets/images/online-reputation-management.jpg"
+          <img
+            src={ORM}
             class="float-right"
             alt="rising reputation chart on laptop jpg"
-          /> */}
+          />
           <h2>Online Reputation Management</h2>
           <p>
             The web is full of opinions, and some of these can be negative.
@@ -39,11 +45,11 @@ export default function Home() {
           </p>
         </article>
         <article id="social-media-marketing" class="child">
-          {/* <img
-            src="./assets/images/social-media-marketing.jpg"
+          <img
+            src={SMM}
             class="float-left"
             alt="social marketing collaboration jpg"
-          /> */}
+          />
           <h2>Social Media Marketing</h2>
           <p>
             Social media continues to have a sizable influence on buying habits.
@@ -56,10 +62,7 @@ export default function Home() {
       <aside class="benefits">
         <article>
           <h3>Lead Generation</h3>
-          {/* <img
-            src="./assets/images/lead-generation.png"
-            alt="lead generation logo"
-          /> */}
+          <img src={LG} alt="lead generation logo" />
           <p>
             Inbound strategies for lead generation require less work for your
             business, bringing customers directly to your website.
@@ -67,10 +70,7 @@ export default function Home() {
         </article>
         <article>
           <h3>Brand Awareness</h3>
-          {/* <img
-            src="./assets/images/brand-awareness.png"
-            alt="brand awareness logo"
-          /> */}
+          <img src={BR} alt="brand awareness logo" />
           <p>
             Users find your business through paid and organic searches,
             increasing the search ranking and visibility for your business.
@@ -78,10 +78,7 @@ export default function Home() {
         </article>
         <article>
           <h3>Cost Management</h3>
-          {/* <img
-            src="./assets/images/cost-management.png"
-            alt="cost management logo"
-          /> */}
+          <img src={CM} alt="cost management logo" />
           <p>
             As the search ranking for your business increases, your advertising
             costs decrease, and you no longer need to advertise your page.
